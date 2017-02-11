@@ -1,17 +1,19 @@
 {
-    "name": "PhilMarc/apaiio-laravel",
-    "homepage": "https://github.com/PhilMarc/apaiio-laravel",
+    "name": "philmarc/laravel-aws-products",
+    "homepage": "https://github.com/philmarc/laravel-aws-products",
     "description": "A simple Laravel 5 service provider for including the ApaiIO / Amazon Product Advertising PHP Library.",
-    "type":"library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
             "Apaiio\\Laravel\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Apaiio\\Laravel\\": "src/"
+        }
+    },
     "require": {
-        "php": "^7.0",
-        "illuminate/support": "~5.3",
         "exeu/apai-io": "~2.0"
     }
 }
